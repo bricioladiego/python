@@ -10,7 +10,7 @@ def generar_password():
 
     password = [] #genera una lista vacia para colocar los caracteres random
 
-    passwordsize = int(input("¿De que tamaño quieres que sea tu contraseña:  ")) 
+    passwordsize = int(input("¿De que tamaño quieres que sea tu contraseña: ")) 
 
     for i in range(passwordsize):
         caracter_random = random.choice(caracteres)
