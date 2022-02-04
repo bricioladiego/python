@@ -16,7 +16,7 @@ def generar_password():
         caracter_random = random.choice(caracteres)
         password.append(caracter_random)
 
-    password = "".join(password)
+    password = "".join(password) #convierte a str la contraseña
     return password
 
 
